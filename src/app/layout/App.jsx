@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-import ButtonExampleButton from '../../Component';
 import EventDashboard from "../../features/event/EventDashboard/EventDashboard";
-
+import NavBar from '../../features/nav/NavBar/NavBar'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         
-        
+       <NavBar />
         <EventDashboard />
       </div>
-    );
+    )
   }
 }
 
