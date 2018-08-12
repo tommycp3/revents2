@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Segment, Item, Icon, List, Button } from "semantic-ui-react";
+import { Segment, Item, Icon, List, Button, Image } from "semantic-ui-react";
 import EventListAttendee from "../EventList/EventListAttendee";
 
 class EventListItem extends Component {
@@ -24,18 +24,22 @@ class EventListItem extends Component {
               </Item>
             </Item.Group>
           </Segment>
+
           <Segment>
             <span>
               <Icon name="clock" /> date |<Icon name="marker" /> time
             </span>
           </Segment>
+
           <Segment secondary>
             <List horizontal>
               <EventListAttendee />
               <EventListAttendee />
-              
+              <EventListAttendee />
+              <EventListAttendee />
             </List>
           </Segment>
+
           <Segment clearing>
             <span>Description will go here</span>
             <Button as="a" color="teal" floated="right" content="View" />

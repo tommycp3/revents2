@@ -10,6 +10,8 @@ class EventDashboard extends Component {
             <h1>Left Column</h1>
             <EventList />
           </Grid.Column>
+
+          
           <Grid.Column width={6}>
             <h1>Right Column</h1>
           </Grid.Column>
