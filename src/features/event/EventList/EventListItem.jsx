@@ -5,7 +5,7 @@ import EventListAttendee from "../EventList/EventListAttendee";
 class EventListItem extends Component {
   render() {
     return (
-      <div>
+      <div className="crazy">
         <Segment.Group>
           <Segment>
             <Item.Group>
