@@ -6,8 +6,9 @@ class EventList extends Component {
     const { events } = this.props;
     return (
       <div>
-        {events.map(event => (
-          <EventListItem />
+        {events.map((event) => (
+            <EventListItem />
+        
         ))}
       </div>
     );
