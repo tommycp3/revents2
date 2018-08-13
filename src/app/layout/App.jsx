@@ -12,6 +12,7 @@ class App extends Component {
       <div>
         <NavBar />
         <Container className="main">
+        
           <EventDashboard />
         
           
