@@ -51,6 +51,30 @@ const eventsDashboard = [
         photoURL: 'https://randomuser.me/api/portraits/men/20.jpg'
       }
     ]
+  },
+  {
+    id: '3',
+    title: 'Trip to Punch and Judy Pub',
+    date: '2018-03-28T14:00:00+00:00',
+    category: 'drinks',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin ligula eu leo tincidunt, quis scelerisque magna dapibus. Sed eget ipsum vel arcu vehicula ullamcorper.',
+    city: 'London, UK',
+    venue: 'Punch & Judy, Henrietta Street, London, UK',
+    hostedBy: 'Tom',
+    hostPhotoURL: 'https://randomuser.me/api/portraits/men/22.jpg',
+    attendees: [
+      {
+        id: 'b',
+        name: 'Tom',
+        photoURL: 'https://randomuser.me/api/portraits/men/22.jpg'
+      },
+      {
+        id: 'aa',
+        name: 'Bob',
+        photoURL: 'https://randomuser.me/api/portraits/men/20.jpg'
+      }
+    ]
   }
   
 ]
