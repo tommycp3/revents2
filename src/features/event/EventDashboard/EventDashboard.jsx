@@ -81,12 +81,21 @@ const eventsDashboard = [
 
 
 class EventDashboard extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      events: eventsDashboard,
+      isOpen: true
+    }
+  }
+
   render() {
     return (
       <Grid>
           <Grid.Column width={10}>
           <h1>Event List</h1>
-            <EventList events={eventsDashboard}/>
+            <EventList events={this.state.events}/>
           </Grid.Column>
 
           
@@ -94,8 +103,8 @@ class EventDashboard extends Component {
             <div className="button-above-event-form">
             <Button positive content="Create Event"/>
             </div>
+            {this.state.isOpen && <EventForm />}
             
-            <EventForm />
           </Grid.Column>
         
       </Grid>
